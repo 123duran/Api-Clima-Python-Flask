@@ -5,12 +5,25 @@
  Também é possível utilizar a API para converter Temperaturas em Farenheit para Celsius.
 
  ### Requerimentos
-
+ - Python 3.8 ou mais recente
  - Pip
  - Flask
  - Pytest
 
  ### Instalação dos requerimentos
+ Partimos do pressuposto que você já instalou o Python 3.8 e o Pip.
+ Para verificar a versão do Python:
+ ```sh
+$ python -V
+ou
+$ python --version
+```
+Para verificar a versão do Pip:
+```sh
+$ pip -V
+ou
+$ pip --version
+```
  Após instalar o PIP, devemos utilizá-lo para instalar as outras dependências do projeto.
  ```sh
 $ pip install flask
