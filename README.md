@@ -1,7 +1,7 @@
  ### API em python usando Flask
  
  ### Objetivo da API
- Essa APi tem por objetivo retornar informações obtidas de uma API externa, ou seja, implementa uma integração com uma API de terceiros.
+ Essa APi tem por objetivo retornar informações obtidas de uma API externa (OpenWeatherMap), ou seja, implementa uma integração com uma API de terceiros.
  Também é possível utilizar a API para converter Temperaturas em Farenheit para Celsius.
 
  ### Requerimentos
@@ -31,3 +31,4 @@ Para exectutar os testes unitários executar o seguinte comando:
 $ pytest
 ```
 Será gerado um arquivo chamado report.html com o resultado dos testes ;)
+
