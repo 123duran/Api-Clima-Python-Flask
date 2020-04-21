@@ -23,7 +23,7 @@ def FarenheitToCelsius():
 
     temperatura = data['temperatura']
     temperaturaConvertida = ConverterFparaC(temperatura)
-    return jsonify('Sua temperatura '+ str(temperatura)  +'ºF convertida para Celsius é de: ' + str(temperaturaConvertida) +'ºC' ) 
+    return jsonify(f'Sua temperatura {temperatura}ºF convertida para Celsius é de: {temperaturaConvertida}ºC' ) 
 
 @app.route('/api/forecast',methods =['POST'])
 def BuscaDadosCidade():
