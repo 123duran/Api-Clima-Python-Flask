@@ -12,8 +12,8 @@
 
  ### Instalação dos requerimentos
  ```sh
-$ pip istall flask
-$ pip istall flask-api
+$ pip install flask
+$ pip install flask-api
 $ pip install pytest pytest-html
 ```
 
