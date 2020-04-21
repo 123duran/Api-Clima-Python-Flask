@@ -1,0 +1,5 @@
+.pytest_cache
+report.html
+_pycache_/
+tests/_pycache_
+*.pyc
