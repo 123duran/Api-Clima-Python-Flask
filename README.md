@@ -11,6 +11,7 @@
  - Pytest
 
  ### Instalação dos requerimentos
+ Após instalar o PIP, devemos utilizá-lo para instalar as outras dependências do projeto.
  ```sh
 $ pip install flask
 $ pip install flask-api
